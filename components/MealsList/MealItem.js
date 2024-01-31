@@ -1,7 +1,7 @@
 import {Pressable, Text, View, Image, StyleSheet} from "react-native";
-import CardWrapper from "./CardWrapper";
+import CardWrapper from "../CardWrapper";
 import {useNavigation} from "@react-navigation/native";
-import MealDetails from "./MealDetails";
+import MealDetails from "../MealDetails";
 
 
 function MealItem({id, title, imageUrl, duration, complexity, affordability }) {
